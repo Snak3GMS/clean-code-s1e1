@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -120,7 +120,7 @@
   width: 226px;
 }
 .task-list-elem >  .inp-elem[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .task-list-elem > .delete:hover {
   color: #cf2323;
@@ -136,18 +136,18 @@
 
 /* Completed */
 #completed-tasks .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-list .task-list-elem .inp-elem[type=text] {
-  display: none
+  display: none;
 }
 
 .task-list .edit-mode .inp-elem[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-list .edit-mode .label {
