@@ -127,12 +127,12 @@
 .task-list-elem > .delete:hover {
   color: #cf2323;
 }
-.delete.del-img {
+.delete .del-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete.del-img:hover {
+.delete .del-img:hover {
   transform: rotateZ(0);
 }
 
